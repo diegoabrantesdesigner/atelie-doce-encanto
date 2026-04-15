@@ -1,0 +1,14 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Docs (não precisam ir pro deploy)
+PRD - Doce Encanto.md
+SPEC - Doce Encanto.md
+implementation_plan.md
