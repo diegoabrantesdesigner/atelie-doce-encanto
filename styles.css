@@ -221,6 +221,17 @@ p {
   color: var(--color-primary);
 }
 
+.navbar-logo {
+  height: 50px;
+  width: auto;
+  display: block;
+  transition: var(--transition);
+}
+
+.navbar.scrolled .navbar-logo {
+  height: 40px;
+}
+
 .navbar-nav {
   display: flex;
   gap: 32px;
@@ -623,6 +634,13 @@ p {
   color: var(--color-accent);
   font-size: 2rem;
   margin-bottom: 8px;
+}
+
+.footer-logo {
+  height: 70px;
+  width: auto;
+  margin-bottom: 12px;
+  border-radius: var(--radius-full);
 }
 
 .footer-brand p {
