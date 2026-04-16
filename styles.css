@@ -942,4 +942,8 @@ p {
   .footer-brand p {
     max-width: 100%;
   }
+
+  .footer-socials {
+    justify-content: center;
+  }
 }
