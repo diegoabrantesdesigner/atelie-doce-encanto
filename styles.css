@@ -344,6 +344,13 @@ p {
   gap: 24px;
 }
 
+.hero-logo {
+  height: 120px;
+  width: auto;
+  align-self: center;
+  border-radius: var(--radius-full);
+}
+
 .hero-content h1 {
   line-height: 1.15;
 }
@@ -651,8 +658,14 @@ p {
 .footer-logo {
   height: 150px;
   width: auto;
-  margin-bottom: 12px;
+  margin: 0 auto 12px;
+  display: block;
   border-radius: var(--radius-full);
+}
+
+.footer-brand {
+  text-align: center;
+  align-items: center;
 }
 
 .footer-brand p {
@@ -894,6 +907,14 @@ p {
 
   .navbar.scrolled .navbar-logo {
     height: 50px;
+  }
+
+  .hero-logo {
+    height: 80px;
+  }
+
+  .footer-logo {
+    height: 100px;
   }
 }
 
