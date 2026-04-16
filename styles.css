@@ -887,6 +887,14 @@ p {
   .navbar-toggle {
     display: flex;
   }
+
+  .navbar-logo {
+    height: 60px;
+  }
+
+  .navbar.scrolled .navbar-logo {
+    height: 50px;
+  }
 }
 
 @media (max-width: 600px) {
